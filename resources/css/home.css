@@ -1,0 +1,246 @@
+@media screen and (max-width: 1400px) and (min-width: 992px){
+    a.logo {
+        height: 60px !important;
+        font-size: xx-large !important;
+    }
+    
+    nav.navbar {
+        flex-direction: row-reverse;
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    nav.navbar{
+        flex-direction: row-reverse;
+    }
+
+    nav.navbar .navbar-nav a{
+        text-align: end;
+    }
+
+    a.logo {
+        height: 60px !important;
+        font-size: xx-large !important;
+    }
+    
+    .sobre {
+        text-align: center;
+    }
+
+    .container.trabalhos {
+        text-align: center;
+    }
+
+    .container.trabalhos .imgs{
+        text-align: left;
+    }
+
+    nav.navbar{
+        padding-left: 80px;
+    }
+
+    .trabalhos .col-lg.imgs img {
+        margin: 0;
+    }
+
+    div.empresas {
+        flex-direction: column;
+    }
+
+    div.empresas img{
+        height: 70px;
+        margin:3% auto;
+    }
+
+    .container.trabalhos, footer p {
+        text-align: center;
+    }
+}
+
+.line {
+    border-bottom: solid;
+    border-bottom-width: 2px;
+    border-color: #F5F5F5;
+}
+
+img{
+    max-width: 100%;
+}
+
+.trabalhos .col-lg h1,.vamos-trabalhar h5 {
+    color:#91BEB8;
+}
+
+.trabalhos .row .col-lg p,.vamos-trabalhar p, .sobre p{
+    color:#A5A5A5;
+}
+
+.trabalhos button:hover,.vamos-trabalhar button:hover{
+    background: #91BEB8;
+    color: white;
+    border-width: 1px;
+    border-color: #C4C4C4;
+}
+
+.trabalhos .col-lg h3,.trabalhos .col-lg h1,.trabalhos .col-lg p, .sobre h5, .sobre p{
+    font-family: 'Roboto';
+}
+
+.trabalhos h1 , .sobre h1, .sobre h2{
+    font-family: 'Playfair Display';
+    font-weight: bolder;
+}
+
+/* ############################################################################ */
+.linguagens{
+    background: #91BEB8;
+    padding: 5%;
+    color: white;
+}
+
+.empresas {
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.empresas img{
+    height: 70px;
+    margin:0 3%;
+}
+
+/* ############################################################################ */
+.sobre h2 span{
+    font-family: 'Crimson Text' !important;
+    font-weight: normal;
+}
+
+.sobre .nome{
+    margin-bottom: 5%;
+}
+
+.sobre h5{
+    margin-bottom: 3%;
+}
+
+
+.sobre{
+    margin-bottom: 5%;
+}
+
+.sobre img{
+    width: 69%;
+    margin: 0 auto;
+}
+
+.sobre {
+    text-align: justify;
+}
+
+.sobre .perfil {
+    text-align: center;
+}
+
+/* ############################################################################ */
+.trabalhos h5{
+    color: #91BEB8;
+    font-family: 'Roboto';
+}
+
+.trabalhos button{
+    background: white;
+    border: solid;
+    border-width: 1px;
+    border-color: #C4C4C4;
+    height: 50px;
+    width: 150px;
+    font-family: 'Roboto';
+}
+
+.col-lg.imgs{
+    max-height: 300px;
+    margin-top: 5%;
+}
+
+.col-lg.imgs .img1 {
+    max-height: 100%;
+}
+
+.col-lg.imgs .img2 {
+    height: 63%;
+    left: 23%;
+    top: 18%;
+    position: absolute;
+}
+
+.col-lg.imgs img{
+    margin: 0 17%;
+}
+
+.trabalhos{
+    text-align: justify;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.trabalhos .row{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+/* ############################################################################ */
+.vamos-trabalhar button {
+    background: white;
+    border: solid;
+    border-width: 1px;
+    border-color: #C4C4C4;
+    height: 60px;
+    width: 220px;
+    font-family: 'Roboto';
+}
+
+.vamos-trabalhar{
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+.vamos-trabalhar .contatos{
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.vamos-trabalhar .contatos img{
+        height: 70px;
+        margin:0 3%;
+}
+
+/* ############################################################################ */
+a.logo{
+    background-color: black;
+    color: white !important;
+    width: 141px;
+    height: 85px;
+    position: absolute !important;
+    text-align: center;
+    font-size: xxx-large;
+    font-family: 'Playfair Display';
+    
+}
+
+header.container-fluid {
+    padding-left: 0px;
+}
+
+.navbar-nav, nav button{
+    font-family: 'Roboto';
+}
+
+/* ############################################################################ */
+footer{
+    border-top: 1px solid #F5F5F5;
+    height: 50px;
+}
+
+footer p{
+    padding-top: 9px;
+}

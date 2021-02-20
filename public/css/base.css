@@ -1,0 +1,79 @@
+nav {
+    /* background-color: rgba(0, 81, 255, 0.404); */
+    min-height: 50px;
+    color: white;
+}
+
+.rowAcoes{
+    text-align: center;
+    background-color: rgb(98, 98, 98);
+    color: white;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+header.container-fluid {
+    margin-bottom: 10px;
+    border-bottom: solid;
+}
+
+.navbar-collapse li form a{
+    color: rgba(0,0,0,.9) !important;
+}
+
+.navbar-collapse li form {
+    margin-bottom: 0px;
+}
+
+.container , .container .main{
+    min-height: 100%;
+}
+
+/*#################################### TELA DE LOGIN ####################################*/
+.login .formLogin {
+    top: 25%;
+    position: relative;
+    border: solid;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+/*#################################### TELA DE LISTAGEM ####################################*/
+
+.post .card {
+    margin: 10px 0 10px 0;
+}
+
+.post .botoes {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*#################################### TELA DE EDITAR ####################################*/
+
+@media screen and (max-width: 992px) {
+    div.edit fieldset img{
+        max-width: 40%;
+    }
+}
+
+.edit .sistema, .edit .criador{
+    border: solid;
+    border-radius: 10px;
+    padding: 2%;
+    margin-bottom: 5px;
+}
+
+.edit fieldset img{
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom:10px;
+}
+
+.edit form {
+    text-align: center;
+}
+
+.edit fieldset {
+    margin-bottom: 10px;
+}
