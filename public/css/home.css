@@ -1,16 +1,32 @@
-@media screen and (max-width: 1400px) and (min-width: 992px){
-    a.logo {
-        height: 60px !important;
-        font-size: xx-large !important;
+@media screen and (max-width: 991px){
+    div.col-md.imgs .img2 {
+        margin: 44% 0 0 0;
+        width: 92%;
     }
-    
-    nav.navbar {
-        flex-direction: row-reverse;
-        padding-left: 60px;
+
+    div.col-md.invertido .img2 {
+        margin: 44% 0 0 0;
+        width: 92%;
     }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 767px){
+    .trabalhos div.col-md.imgs .img2 {
+        margin: 20% 0;
+    }
+
+    nav.navbar{
+        flex-direction: row-reverse;
+    }
+
+    nav.navbar .navbar-nav a{
+        text-align: end;
+    }
+    div a.logo {
+        height: 56px !important;
+        width: 130%;
+    }
+/* 
     nav.navbar{
         flex-direction: row-reverse;
     }
@@ -40,7 +56,7 @@
         padding-left: 80px;
     }
 
-    .trabalhos .col-lg.imgs img {
+    .trabalhos .col-md.imgs img {
         margin: 0;
     }
 
@@ -55,7 +71,7 @@
 
     .container.trabalhos, footer p {
         text-align: center;
-    }
+    } */
 }
 
 .line {
@@ -68,11 +84,7 @@ img{
     max-width: 100%;
 }
 
-.trabalhos .col-lg h1,.vamos-trabalhar h5 {
-    color:#91BEB8;
-}
-
-.trabalhos .row .col-lg p,.vamos-trabalhar p, .sobre p{
+.trabalhos .row .col-md p,.vamos-trabalhar p, .sobre p{
     color:#A5A5A5;
 }
 
@@ -83,13 +95,13 @@ img{
     border-color: #C4C4C4;
 }
 
-.trabalhos .col-lg h3,.trabalhos .col-lg h1,.trabalhos .col-lg p, .sobre h5, .sobre p{
+.trabalhos .col-md h3,.trabalhos .col-md h1,.trabalhos .col-md p, .sobre h5, .sobre p{
     font-family: 'Roboto';
 }
 
 .trabalhos h1 , .sobre h1, .sobre h2{
     font-family: 'Playfair Display';
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 /* ############################################################################ */
@@ -97,6 +109,20 @@ img{
     background: #91BEB8;
     padding: 5%;
     color: white;
+}
+
+.linguagens h5{
+    font-family: 'Roboto';
+    text-transform: uppercase;
+}
+
+.linguagens h1{
+    font-family: 'Playfair Display';
+    font-weight: bold;
+}
+
+.linguagens p{
+    font-family: 'Roboto';
 }
 
 .empresas {
@@ -114,38 +140,55 @@ img{
 .sobre h2 span{
     font-family: 'Crimson Text' !important;
     font-weight: normal;
+    font-style: italic;
 }
 
-.sobre .nome{
-    margin-bottom: 5%;
+.sobre h2:hover{
+    background: linear-gradient(0deg, #DCEAEB 50%, #FFFFFF 50%);
 }
 
 .sobre h5{
-    margin-bottom: 3%;
-}
-
-
-.sobre{
-    margin-bottom: 5%;
+    margin: 5% 0;
 }
 
 .sobre img{
-    width: 69%;
-    margin: 0 auto;
+    width: 100%;
 }
 
 .sobre {
     text-align: justify;
+    padding-bottom: 3%;
 }
 
 .sobre .perfil {
     text-align: center;
+    margin: auto;
+}
+
+.texto{
+    margin:auto;
+}
+
+.sobre .row{
+    min-height: 650px;
 }
 
 /* ############################################################################ */
 .trabalhos h5{
     color: #91BEB8;
     font-family: 'Roboto';
+}
+
+.trabalhos h3:hover{
+    background: linear-gradient(0deg, #DCEAEB 50%, #FFFFFF 50%);
+}
+
+.trabalhos div h1{
+    color: #CECECE;
+}
+
+.trabalhos div h1:hover{
+    color: #91BEB8;
 }
 
 .trabalhos button{
@@ -158,24 +201,26 @@ img{
     font-family: 'Roboto';
 }
 
-.col-lg.imgs{
-    max-height: 300px;
-    margin-top: 5%;
+.trabalhos .col-md.invertido{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: left;
 }
 
-.col-lg.imgs .img1 {
-    max-height: 100%;
+.trabalhos .col-md.imgs{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
 }
 
-.col-lg.imgs .img2 {
-    height: 63%;
-    left: 23%;
-    top: 18%;
-    position: absolute;
+.col-md.imgs .img2 {
+    margin: 16% 0 16% 1%;
+    width: 72%;
 }
 
-.col-lg.imgs img{
-    margin: 0 17%;
+.col-md.invertido .img2 {
+    margin: 16% 0 16% 28%;
+    width: 72%;
 }
 
 .trabalhos{
@@ -214,15 +259,30 @@ img{
         margin:0 3%;
 }
 
+.vamos-trabalhar h5{
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    color:#91BEB8;
+}
+
+.vamos-trabalhar h1{
+    font-family: 'Playfair Display';
+    font-weight: bold;
+}
+
+.vamos-trabalhar p{
+    font-family: 'Roboto';
+}
+
 /* ############################################################################ */
 a.logo{
-    background-color: black;
+    background-color: #2C2C2C;
     color: white !important;
-    width: 141px;
-    height: 85px;
+    font-size: 150%;
+    width: 100%;
+    height: 100%;
     position: absolute !important;
     text-align: center;
-    font-size: xxx-large;
     font-family: 'Playfair Display';
     
 }
@@ -231,8 +291,15 @@ header.container-fluid {
     padding-left: 0px;
 }
 
-.navbar-nav, nav button{
+header nav.navbar a{
     font-family: 'Roboto';
+    font-weight: bold;
+    color: black !important;
+    text-transform: uppercase;
+}
+
+header nav.navbar a:hover {
+    background: linear-gradient(90deg, #91BEB8 50%, #FFFFFF 50%);
 }
 
 /* ############################################################################ */
