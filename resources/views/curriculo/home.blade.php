@@ -34,7 +34,7 @@
         </header>
         <div id='about' class='container sobre'> 
             <div class='row'>
-                <div class='col-md order-md-1 texto'>
+                <div class='col-md texto'>
                     <h1>Hello!</h1>
                     <h2 class='nome'><span>I’m</span> Maxwell Borges</h2>
                     <h5>Trabalho como desenvolvedor <i>full stack</i> com foco na experiência do usuário.</h5>
@@ -48,7 +48,7 @@
                     </p>
                     <p>Esse sou eu, Maxwell. Vamos juntos fazer esse sistema crescer?</p>
                 </div>
-                <div class='col-md order-md-2 perfil'>
+                <div class='col-md order-first order-md-2 perfil'>
                    <img src="{{asset('/storage/imgs/foto_pessoal.png')}}">
                 </div>
             </div>
@@ -73,7 +73,7 @@
                 <div class='col-md invertido order-md-2' style="background-image:url({{asset('/storage/imgs/educa2.png')}})">
                     <img class='img2' src="{{asset('/storage/imgs/educa.png')}}">
                 </div>
-                <div class='col-md order-md-1'>
+                <div class='col-md order-md-1 texto'>
                     <h1>02</h1>
                     <h3>Educa ao Quadrado (Educa<sup>2</sup>)</h3>
                     <p>Devido a pandemia, muitos alunos ficaram sem meios para ter acesso as aulas, a proposta do Educa<sup>2</sup> seria viabilizar a esses alunos o acesso a aulas por meio de mensagens RCS onde seria possível ouvir a aula gravada pelo professor a qualquer momento.</p>
@@ -86,7 +86,7 @@
                 <div class='col-md imgs' style="background-image:url({{asset('/storage/imgs/bbts2.png')}})">
                     <img class='img2' src="{{asset('/storage/imgs/bbts.png')}}">
                 </div>
-                <div class='col-md'>
+                <div class='col-md texto'>
                     <h1>03</h1>
                     <h3>BB Tecnologia e Serviços</h3>
                     <p>Proposto para integrar distintos sistemas e planilhas excel, o sistema disponibiliza para o técnico o calendario com as atividades agendadas e a possibilidade de marcar ferias, abonos e faltas. Já para os gerentes, a possibilidade de aprovar as solicitações de ausências e o calendário com os funcionários que estarão presentes em cada dia do mês, com respectivos horários e turnos.</p>

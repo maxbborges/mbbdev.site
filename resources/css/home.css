@@ -15,6 +15,10 @@
         margin: 20% 0;
     }
 
+    .trabalhos div.col-md.invertido .img2{
+        margin: 20% 0 20% 10%;
+    }
+
     nav.navbar{
         flex-direction: row-reverse;
     }
@@ -24,22 +28,25 @@
     }
     div a.logo {
         height: 56px !important;
-        width: 130%;
-    }
-/* 
-    nav.navbar{
-        flex-direction: row-reverse;
+        width: 200%;
     }
 
-    nav.navbar .navbar-nav a{
-        text-align: end;
+    div.texto {
+        text-align: center;
     }
 
-    a.logo {
-        height: 60px !important;
-        font-size: xx-large !important;
+    .sobre div.texto {
+        text-align: justify;
     }
-    
+
+    div.empresas img{
+        height: 35px;
+    }
+
+    div.sobre img {
+        width: 70%;
+    }
+/*  
     .sobre {
         text-align: center;
     }
@@ -205,12 +212,14 @@ img{
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: left;
+    background-origin: content-box;
 }
 
 .trabalhos .col-md.imgs{
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: right;
+    background-origin: content-box;
 }
 
 .col-md.imgs .img2 {
@@ -304,7 +313,7 @@ header nav.navbar a:hover {
 
 /* ############################################################################ */
 footer{
-    border-top: 1px solid #F5F5F5;
+    border-top: 2px solid #F5F5F5;
     height: 50px;
 }
 
